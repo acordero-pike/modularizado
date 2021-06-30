@@ -114,3 +114,14 @@ export function cargarEdicion(cita) {
     editando = true;
 
 }
+
+function sincronizarStorage() {
+    localStorage.setItem('citas', JSON.stringify(ctsa));
+}
+function eliminarlocal() {
+    localStorage.removeItem('citas');
+   recargar();
+}
+function recargar( ) {
+    location.reload();
+}

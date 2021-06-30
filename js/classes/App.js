@@ -1,7 +1,7 @@
 
 import { datosCita, nuevaCita } from '../funciones.js';
-import { mascotaInput, propietarioInput, telefonoInput, fechaInput, horaInput, sintomasInput, formulario,ctsa } from '../selectores.js';
-
+import { mascotaInput, propietarioInput, telefonoInput, fechaInput, horaInput, sintomasInput, formulario } from '../selectores.js';
+let ctsa = [];
 class App {
     constructor() {
         this.initApp();
