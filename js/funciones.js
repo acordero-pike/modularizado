@@ -115,13 +115,13 @@ export function cargarEdicion(cita) {
 
 }
 
-function sincronizarStorage() {
+export function sincronizarStorage() {
     localStorage.setItem('citas', JSON.stringify(ctsa));
 }
-function eliminarlocal() {
+export function eliminarlocal() {
     localStorage.removeItem('citas');
    recargar();
 }
-function recargar( ) {
+export function recargar( ) {
     location.reload();
 }
