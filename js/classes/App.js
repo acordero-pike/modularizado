@@ -1,6 +1,10 @@
 
 import { datosCita, nuevaCita } from '../funciones.js';
 import { mascotaInput, propietarioInput, telefonoInput, fechaInput, horaInput, sintomasInput, formulario } from '../selectores.js';
+import Citas from './classes/Citas.js'
+import UI from './classes/UI.js'
+const ui = new UI();
+const administrarCitas = new Citas();
 let ctsa = [];
 class App {
     constructor() {
