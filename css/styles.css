@@ -1,0 +1,69 @@
+html {
+  min-height: 100%;
+}
+.btn-warning{
+  background: red;
+}
+.warning
+{
+background: #e8b048;
+}
+.succes
+{
+background: rgba(144, 182, 253, 0.685);
+}
+.today
+{
+  background: #56d0568c;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-image: linear-gradient(-225deg, #8a5fc2 0%, #cf59b6 52%, #6f42a1 100%);
+  min-height: 100%;
+  padding-bottom: 5rem;
+}
+.titulo {
+  font-weight: bold;
+  font-size: 3rem;
+  text-transform: uppercase;
+  color: white;
+}
+.container {
+  background-image: Url("https://static8.depositphotos.com/1006728/958/i/600/depositphotos_9580596-stock-photo-blurred-white-background.jpg");
+  background-size: cover;
+
+}
+header {
+  margin-top: 3rem;
+}
+header h1 {
+  color: white;
+}
+.lista-citas .cita {
+  border-bottom: 1px solid #e1e1e1;
+  padding: 2rem;
+  padding-bottom: 3rem;
+  
+}
+.lista-citas .cita:last-of-type {
+  border-bottom: 0;
+}
+
+.lista-citas .cita p {
+  margin:0;
+}
+.lista-citas .cita button {
+  margin-top: 1rem!important;
+}
+.lista-citas .cita span {
+  font-weight: bold;
+}
+textarea {
+    height: 200px!important;
+}
+
+svg {
+  width: 21px;
+}
