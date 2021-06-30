@@ -1,9 +1,6 @@
 // Classes
 import {sincronizarStorage} from '../funciones.js'
-import Citas from './classes/Citas.js'
-import UI from './classes/UI.js'
-const ui = new UI();
-const administrarCitas = new Citas();
+
 class Citas {
     constructor() {
         this.citas = []
