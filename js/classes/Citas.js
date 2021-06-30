@@ -1,5 +1,5 @@
 // Classes
-import {sincronizarStorage} from '../funciones.jd'
+import {sincronizarStorage} from '../funciones.js'
 class Citas {
     constructor() {
         this.citas = []
