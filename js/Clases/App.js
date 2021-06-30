@@ -1,6 +1,6 @@
 
 import {datosCita,nuevaCita} from '../Funciones.js';
-import {mascotaInput,propietarioInput,telefonoInput,fechaInput,horaInput,sintomasInput,formulario} from "./Selectore";
+import {mascotaInput,propietarioInput,telefonoInput,fechaInput,horaInput,sintomasInput,formulario} from "./Selectore.js";
 
 class App {
 
