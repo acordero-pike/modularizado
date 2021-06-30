@@ -18,6 +18,18 @@ class App {
         sintomasInput.addEventListener('change', datosCita);
         document.querySelector('#borrar').addEventListener('click',eliminarlocal)
         formulario.addEventListener('submit', nuevaCita);
+        document.addEventListener('DOMContentLoaded', () => {
+            ctsa =JSON.parse( localStorage.getItem('citas') ) || []  ;
+        
+            if(ctsa.length >0)
+                {
+                    administrarCitas.cargardatos(ctsa);
+                    ui.imprimirCitas(administrarCitas)
+                }
+                 
+                    eventListeners();
+                
+        })
         
     }
 }
