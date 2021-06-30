@@ -1,6 +1,6 @@
 import Citas from './Clases/Citas.js'
 import UI from './Clases/Ui.js'
-import {mascotaInput,propietarioInput,telefonoInput,fechaInput,horaInput,sintomasInput,formulario} from "./Selectore";
+import {mascotaInput,propietarioInput,telefonoInput,fechaInput,horaInput,sintomasInput,formulario} from "./Clases/Selectore";
 
 const administrarCitas = new Citas();
 const ui = new UI(administrarCitas);
