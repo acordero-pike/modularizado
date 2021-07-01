@@ -1,18 +1,19 @@
 // Classes
 import {sincronizarStorage} from '../funciones.js'
-
+import {ctsa} from '/App.js';
+let ctsp = []
 class Citas {
     constructor() {
         this.citas = []
     }
     agregarCita(cita) {
-        ctsa = [...ctsa ,cita]
+        ctsp = [...ctsp ,cita]
         this.citas = [...this.citas, cita];
         sincronizarStorage(); //agregar un local storage
     }
     editarCita(citaActualizada) {
         this.citas = this.citas.map( cita => cita.id === citaActualizada.id ? citaActualizada : cita)
-        ctsa = ctsa.map(cita => cita.id === citaActualizada.id ? citaActualizada : cita) // actualizar local storage
+        ctsp = ctsa.map(cita => cita.id === citaActualizada.id ? citaActualizada : cita) // actualizar local storage
    
         sincronizarStorage(); 
        
@@ -20,7 +21,7 @@ class Citas {
 
     eliminarCita(id) {
         this.citas = this.citas.filter( cita => cita.id !== id);
-        ctsa = ctsa.filter(cita => cita.id !== id );
+        ctsp = ctsa.filter(cita => cita.id !== id );
         sincronizarStorage();
     }
     cargardatos(arreglo)
