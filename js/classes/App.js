@@ -5,7 +5,7 @@ import Citas from './Citas.js'
 import UI from './UI.js'
 const ui = new UI();
 const administrarCitas = new Citas();
-let ctsa = [];
+export let ctsa = [];
 class App {
     constructor() {
         this.initApp();
