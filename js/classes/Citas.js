@@ -1,5 +1,5 @@
 // Classes
-import {sincronizarStorage} from '../funciones.js'
+import {sincronizarStorage} from '../funciones.js';
 import {ctsa} from './App.js';
 let ctsp = []
 class Citas {
@@ -7,7 +7,7 @@ class Citas {
         this.citas = []
     }
     agregarCita(cita) {
-        ctsp = [...ctsp ,cita]
+        ctsp = [...ctsa ,cita]
         this.citas = [...this.citas, cita];
         sincronizarStorage(); //agregar un local storage
     }
