@@ -7,8 +7,9 @@ class Citas {
         this.citas = []
     }
     agregarCita(cita) {
-        ctsp = [...ctsa ,cita]
+     
         this.citas = [...this.citas, cita];
+        ctsp= [...ctsp,this.citas]
         sincronizarStorage(); //agregar un local storage
     }
     editarCita(citaActualizada) {
