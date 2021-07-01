@@ -116,7 +116,7 @@ export function cargarEdicion(cita) {
 }
 
 export function sincronizarStorage() {
-    localStorage.setItem('citas', JSON.stringify(ctsa));
+    localStorage.setItem('citas', JSON.stringify(administrarCitas));
 }
 export function eliminarlocal() {
     localStorage.removeItem('citas');
