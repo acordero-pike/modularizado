@@ -1,6 +1,6 @@
 // Classes
 import {sincronizarStorage} from '../funciones.js'
-import {ctsa} from '/App.js';
+import {ctsa} from './App.js';
 let ctsp = []
 class Citas {
     constructor() {
